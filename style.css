@@ -1,0 +1,73 @@
+*{margin: 0px ;
+padding: 0px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.header{
+    background-image: url(header.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 8%;
+    margin: 8%;
+}
+
+nav img{
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: -3px;
+}
+
+.navlinks li{
+    display: inline-flex;
+    padding: 40px;
+    margin-left: 5%;
+}
+
+.welcome p{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 3%;
+}
+
+h3{
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 2%;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 4px;
+}
+
+footer{
+    color: crimson;
+    text-align: center;
+    padding: 9%;
+    padding-bottom: 2%;
+    font-size: large;
+}
+
+p a{
+    text-decoration: none;
+    color: darkblue;
+}
